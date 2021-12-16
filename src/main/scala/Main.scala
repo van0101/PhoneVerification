@@ -8,18 +8,19 @@ object Main
 {
   def main(args: Array[String]): Unit =
   {
-    implicit val formats: Formats = Serialization.formats(NoTypeHints)
 
+
+    // Read From File
     val source = scala.io.Source.fromFile("V:\\AddressesTxt.txt")
 
 
+    // Get Address Object List
     val addressContainer: AddressContainer = getValue(source.mkString)
 
+    val addressList = addressContainer.address
 
-    var addressList = addressContainer.address
-
-
-    for( address <- addressList)
+    // Validate each Address
+    for(address <- addressList)
     {
       stringValidation(address)
     }
