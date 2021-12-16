@@ -1,0 +1,39 @@
+{
+	"address": [{
+			"name": "ABC",
+			"Add_line1": "Line1",
+			"Add_line2": "Line2",
+			"pin_str": "123456",
+			"phone_str": "+91 9123456789"
+		},
+		{
+			"name": "QWE",
+			"Add_line1": "Line1",
+			"Add_line2": "Line2",
+			"pin_str": "123456",
+			"phone_str": "+91-9123456789"
+		},
+		{
+			"name": "XYZ",
+			"Add_line1": "Line1",
+			"Add_line2": "Line2",
+			"pin_str": "123456",
+			"phone_str": "+91912345678"
+		},
+		{
+			"name": "PQR",
+			"Add_line1": "Line1",
+			"Add_line2": "Line2",
+			"pin_str": "!23456",
+			"phone_str": "+911 9123456789"
+		},
+		{
+			"name": "AZS",
+			"Add_line1": "Line1",
+			"Add_line2": "Line2",
+			"pin_str": "123456",
+			"phone_str": "+919123456789"
+		}
+	]
+
+}
